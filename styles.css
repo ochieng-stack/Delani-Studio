@@ -2,14 +2,6 @@
 *, *::before, *::after {
      box-sizing: border-box;
 }  
-.container-full-height-grow{
-    margin:0;
-    padding:0;
-    line-height: 2.0;
-    font-size:16px;
-    box-sizing:border-box;
-    font-family:sans-serif;
-}
  .header-container{
      background-image: url("images/h_img.jpg");
      padding:100px;
@@ -67,10 +59,22 @@
  .contact-us-container{
     background-image: url("images/c_image.jpg");
     height:600px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-grow: 1;
  }
 
- .social-media-container{
-     margin-left:500px;
-     height:200px;
- }
-
+.subscribe-form{
+    background-color: transparent;
+    width:50vw;
+    max-width:50px;
+    padding:2rem 4rem;
+    border-radius: 20px;
+}
+.social-media-container{
+    background-color:white;
+    height:200px;
+    padding: 50px 0px;
+    margin-left:500px;
+}
