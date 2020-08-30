@@ -70,13 +70,14 @@
     margin-left:500px;
 }
 input[type=text], select, textarea {
-    width:100%;
+    width:60%;
     padding:12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    resize: vertical;
+    text-align:center;
+    background-color: transparent;
 }
 
 input[type=subscribe] {
@@ -89,5 +90,5 @@ input[type=subscribe] {
 }
 
 input[type=subscribe]:hover{
-    background-color:black;
+    background-color:white;
 }
