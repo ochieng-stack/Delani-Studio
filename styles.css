@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family-poppins:400,500,700');
+*, *::before, *::after {
+     box-sizing: border-box;
+}  
+.container-full-height-grow{
+    margin:0;
+    padding:0;
+    line-height: 2.0;
+    font-size:16px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+ .header-container{
+     background-image: url("images/h_img.jpg");
+     padding:100px;
+     height: 1000px;
+     padding:100px 0px;
+ }
+.brand-logo{
+    margin-left:600px;
+    height:1rem;
+    padding:100px 50px;
+}
+.mouse-logo{
+    margin-left:700px;
+    height: 1.2rem;
+    padding:50px 0px;
+}
+ .brand-logo-name{
+     color:white;
+     margin-left:500px;
+     height:1rem; 
+     padding: 50px 0px;
+     text-decoration: none;
+     bottom: 4rem;
+ }
+.about-container{
+    margin-left:20px;
+    text-decoration: none;
+    text-align: center;
+    list-style:none;
+    flex-direction:row;
+    padding:50px 0px;
+}
+ .services-name{
+     color:white;
+     padding:50px 0px;
+     margin-left: 20px;
+     height:400px;
+     text-decoration:none;
+     text-align: center;
+ }
+ .services-container{
+     background-image:url("images/s_image.jpg");
+ }
+ .what-we-do-container{
+    width: 1000px;
+    height:200px;
+    display:flex;
+    padding:50px 0px;
+    text-align: center;
+    justify-content:space-between;
+ }
+ .portfolio-name{
+     margin-left: 600px;
+ }
+ .contact-us-container{
+    background-image: url("images/c_image.jpg");
+    height:600px;
+ }
+
+ .social-media-container{
+     margin-left:500px;
+     height:200px;
+ }
+
