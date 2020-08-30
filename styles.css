@@ -58,20 +58,11 @@
  }
  .contact-us-container{
     background-image: url("images/c_image.jpg");
-    height:600px;
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-grow: 1;
+
+    padding: 50px 0px;
  }
 
-.subscribe-form{
-    background-color: transparent;
-    width:50vw;
-    max-width:50px;
-    padding:2rem 4rem;
-    border-radius: 20px;
-}
+
 .social-media-container{
     background-color:white;
     height:200px;
