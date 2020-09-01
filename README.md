@@ -10,14 +10,14 @@ Delani studio deals with software development and colaboration trough this websi
 * format
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
-*Some output are not as accurate as expeccted
+* Some output are not as accurate as expeccted
 ## Technologies Used
-*HTML
-*CSS
-*Bootstrap
+* HTML
+* CSS
+* Bootstrap
 ## Support and contact details
- *if you have any question or contribution, please email me at [ochiengb215@gmail.com].
+ * if you have any question or contribution, please email me at [ochiengb215@gmail.com].
 ### License
-*Mit lincence:
-*copyright(c)2020 BRIAN OCHIENG
+* Mit lincence:
+* copyright(c)2020 BRIAN OCHIENG
   
