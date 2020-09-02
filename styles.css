@@ -5,7 +5,7 @@
  .header-container{
      background-image: url("images/h_img.jpg");
      padding:100px;
-     height: 1000px;
+     height: 500px;
      padding:100px 0px;
  }
 .brand-logo{
@@ -16,18 +16,28 @@
 .mouse-logo{
     height: 1.2rem;
     padding:50px 0px;
-    margin-left: 650px;
-    bottom: 10px;
+    margin-left:650px;
 }
  .brand-logo-name{
      color:white;
-     margin-left:500px;
+     margin-left:600px;
      border:3px solid transparent;
      padding: 10px;
      font-size:30px;
      align-content: center;
      bottom: 10px;
-
+ }
+ .brand-logo-studio{
+     margin-left: 550px;
+     color:white;
+     font-size:30px;
+     align-content: center;
+ }
+.brand-logo-motto {
+    margin-left: 350px;
+    color:white;
+    font-size:  30px;
+    align-content: center;
 }
 .about-container{
     margin-left:20px;
@@ -48,13 +58,27 @@
  .services-container{
      background-image:url("images/s_image.jpg");
  }
+ 
+ .what-we-do-name{
+     margin-left:600px;
+     top:50px;
+ }
  .what-we-do-container{
-    width: 1000px;
-    height:200px;
-    display:flex;
-    padding:50px 0px;
-    text-align: center;
-    justify-content:space-between;
+     display:flex;
+     justify-content: space-between;
+     height:400px;
+ }
+ .design {
+     padding:200px 0px;
+     margin-left:-1200px;
+ }
+ .development {
+     padding:200px 0px;
+     margin-left:-500px;
+ }
+ .product {
+     padding:200px 0px;
+     margin-left:-500px;
  }
  .portfolio-name{
      margin-left: 600px;
@@ -73,8 +97,9 @@
     padding: 50px 0px;
     margin-left:500px;
 }
-input[type=text], select, asterisk{
-    width:60%;
+input[type=text], select{
+    width: 60%;
+    display:flex;
     padding:12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -83,7 +108,6 @@ input[type=text], select, asterisk{
     text-align:center;
     background-color: transparent;
     justify-content:space-between;
-    display:flex;
 }
 
 .contact-name{
@@ -91,7 +115,16 @@ input[type=text], select, asterisk{
     margin-left:600px;
 }
 .mc-field-group{
-    margin-left: 500px;
+    margin-left: 200px;
     background-color: transparent;
     display:flex;
+}
+.mc-field-group-name{
+    margin-left:0px;
+    margin-top:30px;
+    margin-right:700px;
+}
+.mc-field-group-email{
+    top:-500px;
+    margin-left:1000px;
 }
