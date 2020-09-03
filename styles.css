@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family-poppins:400,500,700');
+
 *, *::before, *::after {
      box-sizing: border-box;
-}  
+}
  .header-container{
      background-image: url("images/h_img.jpg");
      padding:100px;
      height: 500px;
      padding:100px 0px;
+     flex-wrap: wrap;
  }
 .brand-logo{
     margin-left:600px;
@@ -39,6 +40,9 @@
     font-size:  30px;
     align-content: center;
 }
+img:hover{
+   color:#0000;
+}
 .about-container{
     margin-left:20px;
     text-decoration: none;
@@ -58,7 +62,6 @@
  .services-container{
      background-image:url("images/s_image.jpg");
  }
- 
  .what-we-do-name{
      margin-left:600px;
      top:50px;
@@ -108,6 +111,10 @@ input[type=text], select{
     text-align:center;
     background-color: transparent;
     justify-content:space-between;
+    flex-wrap:wrap;
+}
+img{
+    flex-wrap:wrap
 }
 
 .contact-name{

@@ -51,39 +51,142 @@
     <div class="what-we-do-container">
         <h1 class="what-we-do-name">WHAT WE DO</h1>
         <div class="design">
-        <img src="images/design_icon.png">
+        <img id ='icon' src="images/design_icon.png">
         <p>Design</p>
         </div>
         <div class="development">
-        <img src="images/dev_icon.png">
+        <img id='stylesheet' src="images/dev_icon.png">
         <p>Development</p>
         </div>
         <div class="product">
-        <img src="images/product_icon.png">
+        <img id='product'src="images/product_icon.png">
         <p>product</p>
         </div>
     </div>
 </div>
 <script>
     $(document).ready(function(){
-        $("img").click(function(){
+        $("#icon").click(function(){
             $(this).hide();
+        })
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#stylesheet").click(function(){
+            $(this).hide()
+        })
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#product").click(function(){
+            $(this).hide()
         })
     });
 </script>
 <div class="row-portfolio">
     <div class="portfolio-container">
         <h4 class="portfolio-name">PORTFOLIO</h4>
-        <img src="images/work4.jpg">
-        <img src="images/work3.jpg">
-        <img src="images/work2.jpg">
-        <img src="images/work1.jpg">
-        <img src="images/work5.jpg">
-        <img src="images/work6.jpg">
-        <img src="images/work7.jpg">
-        <img src="images/work8.jpg">
+        <img id="work4" src="images/work4.jpg">
+        <img id="work3" src="images/work3.jpg">
+        <img id="work2" src="images/work2.jpg">
+        <img id="work1" src="images/work1.jpg">
+        <img id="work5" src="images/work5.jpg">
+        <img id="work6" src="images/work6.jpg">
+        <img id="work7" src="images/work7.jpg">
+        <img id="work8" src="images/work8.jpg">
     </div>
 </div>
+<script>
+    $(function(){
+        $('#work4').hover(function(){
+            $(this).width(1.2*$(this).width());
+            $(this).height(1.2*$(this).height());
+        },function(){
+            $(this).width(0.8*$(this).width());
+            $(this).height(0.8*$(this).height());
+        });
+    });
+</script>
+<script>
+     $(function () {
+            $('#work3').hover(function () {
+                $(this).width(1.2 * $(this).width());
+                $(this).height(1.2 * $(this).height());
+            }, function () {
+                $(this).width(0.8 * $(this).width());
+                $(this).height(0.8 * $(this).height());
+            });
+        });
+</script>
+<script> 
+  $(function () {
+        $('#work2').hover(function () {
+            $(this).width(1.2 * $(this).width());
+            $(this).height(1.2 * $(this).height());
+        }, function () {
+            $(this).width(0.8 * $(this).width());
+            $(this).height(0.8 * $(this).height());
+        });
+    });
+</script>
+<script>
+     $(function () {
+            $('#work1').hover(function () {
+                $(this).width(1.2 * $(this).width());
+                $(this).height(1.2 * $(this).height());
+            }, function () {
+                $(this).width(0.8 * $(this).width());
+                $(this).height(0.8 * $(this).height());
+            });
+        });
+</script>
+<script>
+     $(function () {
+            $('#work5').hover(function () {
+                $(this).width(1.2 * $(this).width());
+                $(this).height(1.2 * $(this).height());
+            }, function () {
+                $(this).width(0.8 * $(this).width());
+                $(this).height(0.8 * $(this).height());
+            });
+        });
+</script>
+<script>
+     $(function () {
+            $('#work6').hover(function () {
+                $(this).width(1.2 * $(this).width());
+                $(this).height(1.2 * $(this).height());
+            }, function () {
+                $(this).width(0.8 * $(this).width());
+                $(this).height(0.8 * $(this).height());
+            });
+        });
+</script>
+<script>
+     $(function () {
+            $('#work7').hover(function () {
+                $(this).width(1.2 * $(this).width());
+                $(this).height(1.2 * $(this).height());
+            }, function () {
+                $(this).width(0.8 * $(this).width());
+                $(this).height(0.8 * $(this).height());
+            });
+        });
+</script>
+<script>
+     $(function () {
+            $('#work8').hover(function () {
+                $(this).width(1.2 * $(this).width());
+                $(this).height(1.2 * $(this).height());
+            }, function () {
+                $(this).width(0.8 * $(this).width());
+                $(this).height(0.8 * $(this).height());
+            });
+        });
+</script>
+
         <div class="row contact us">
             <div class="contact-us-container">
                 <h1 class="contact-name">CONTACT US</h1>
